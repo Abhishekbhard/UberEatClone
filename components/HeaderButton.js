@@ -17,7 +17,7 @@ const HeaderButton = ({
     onPress={() => setActiveTab(text)}
   >
     <Text
-      style={[styles.text, { color: activeTab === text ? "white" : "black" }]}
+      style={[styles.text, { color: activeTab === text ? "white" : "black"  }]}
     >
       {text}
     </Text>
