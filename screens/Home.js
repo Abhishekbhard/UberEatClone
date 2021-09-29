@@ -16,8 +16,8 @@ function Home(props) {
       <View style={styles.viewHeader}>
         <HeaderTabs />
         <SearchBar />
-        <Categories />
       </View>
+      <Categories />
     </SafeAreaView>
   );
 }
